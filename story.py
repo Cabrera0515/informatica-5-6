@@ -23,7 +23,9 @@ def main():
     print()
 
     print("this your story:")
-    print(f"ATn the sky turned {color}, and the air felt {adj}. I decided today I will fially {goal}.")
+    print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will fially {goal}.")
+
+    print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will fially {goal}.".upper())
 if __name__ == "__main__":
    main()
 
