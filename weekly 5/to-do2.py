@@ -1,0 +1,24 @@
+def main():
+
+    tasks = []
+
+    while True:
+        print(f"Tasks to do: {len(tasks)}")
+        print(tasks)
+
+        new_task = input("Enter task: ").capitalize().strip()
+
+            if new_task == "Exit":
+                break
+            elif new_task not in tasks:
+        if new_task not in tasks:
+            tasks.append(new_task)
+         elif new_task in task:
+            del_confirm = input("Did you completed {new_task}? (y/n):").lower().strip()
+            if del_confirm == "y"
+                tasks.remove(new_task)
+            else:
+                continue
+
+if __name__ == "__main__":
+    main()
