@@ -1,0 +1,6 @@
+1. Write a description for a while loop.
+A while loop keeps oing whil something is true. It checks if the condition is true and runs, then checks again. U gotta make sure it can become false or its gonna be an infinite loop.
+2. Write a description for a for loop.
+its when You already know how many time you want to loop. it goes through a list or numbers. like if you have 10 items it loops 10 times.
+3. Compare a while loop to a for loop.
+they both loop but theyre different. for is for when you know the amount, while is when you dont and just wait for something to happen. for is easier for counting, whjile is better for like waiting a condition
