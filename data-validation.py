@@ -32,7 +32,7 @@ def main():
         print(f"(x) times (times_table) is: ")
         while not_validated3:
             try:
-                user_answer = int(input("The answer is? "))
+            user_answer = int(input("The answer is? "))
 
     # while True:
     #
