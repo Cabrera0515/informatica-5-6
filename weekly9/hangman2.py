@@ -5,9 +5,9 @@ def main():
 
 def start_game(file):
      attempts = 10
-     with opne(file) as f:
+     with open(file) as f:
             word_bank = f.read().splitlines()
-        word = random.choice(word_bank)
+        word = random.choice(word_bank).lower
         hint = ["_"] * len(word)
         icorrect_letters = []
         while atempts > 0:
@@ -37,3 +37,4 @@ def start_game(file):
 
 
 if __name__ == "__main__":
+        main():
